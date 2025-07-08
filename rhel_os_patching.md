@@ -1,5 +1,7 @@
 ## How to Patch a RHEL 9.6 System
 
+> 🔗 [Back to Main README](./README.md)
+
 Follow these steps to patch a Red Hat Enterprise Linux (RHEL) 9.6 system:
 
 ### 1. Update Repository Metadata
