@@ -17,8 +17,15 @@ This public repository contains documentation and resources related to our on-pr
 
 ## 📘 Additional Documentation
 
-- 👉 [Red Hat 9 Registration Guide](./rhel_registration.md)
-- 👉 [Red Hat 9 OS Patching Guide](./rhel_os_patching.md)
+### Kubernetes
+
+- 👉 [Kubernete Quick Reference](./kube_quick_ref.md)
+
+
+### RedHat Guide
+
+- 👉 [Red Hat 9 Registration](./rhel_registration.md)
+- 👉 [Red Hat 9 OS Patchingß](./rhel_os_patching.md)
 
 ### Notes
 - No passwords or sensitive credentials will be stored in this repository.
