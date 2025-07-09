@@ -19,7 +19,10 @@ This public repository contains documentation and resources related to our on-pr
 
 ### Kubernetes
 
-- 👉 [Kubernete Quick Reference](./kube_quick_ref.md)
+- 👉 [Kubernete Documentation](https://kubernetes.io/docs/home/)
+- 👉 [Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+- 👉 [Adding Linux worker nodes](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/adding-linux-nodes/)
+- 👉 [Kubernete Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference/)
 
 
 ### RedHat Guide
