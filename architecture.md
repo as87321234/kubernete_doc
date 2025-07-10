@@ -5,15 +5,25 @@
 
 This document outlines the basic server architecture for the Kubernetes cluster environment. Each server is designated with its respective hostname and IP address.
 
-## 🖥️ Server Table
+## 🖥️ Server Table - Group 1 
+
+| Hostname       | IP Address   | Role Description               |
+|----------------|--------------|-------------------------------|
+| `kubectl`      | 10.0.3.10     | Cluster management node (CLI) |
+| `kubectl-sbx`  | 10.0.3.14     | Cluster management node (CLI) - Sandbox |
+| `kubenode1`    | 10.0.3.11     | Worker node #1                |
+| `kubenode2`    | 10.0.3.12     | Worker node #2                |
+| `pod-registry` | 10.0.3.13     | Internal container image registry |
+
+## 🖥️ Server Table - Group 2 
 
 | Hostname      | IP Address   | Role Description               |
 |---------------|--------------|-------------------------------|
-| `kubectl`     | 10.0.3.10     | Cluster management node (CLI) |
-| `kubectl-sbx` | 10.0.3.14     | Cluster management node (CLI) - Sandbox |
-| `kubenode1`   | 10.0.3.11     | Worker node #1                |
-| `kubenode2`   | 10.0.3.12     | Worker node #2                |
-| `pod-registry`| 10.0.3.13     | Internal container image registry |
+| `kubectl2`     | 10.0.4.10     | Cluster management node (CLI) |
+| `kubectl2-sbx` | 10.0.4.14     | Cluster management node (CLI) - Sandbox |
+| `kubenode2-1`   | 10.0.4.11     | Worker node #1                |
+| `kubenode2-2`   | 10.0.4.12     | Worker node #2                |
+| `pod2-registry`| 10.0.4.13     | Internal container image registry |
 
 ## 🧭 Notes
 
