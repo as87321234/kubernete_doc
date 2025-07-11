@@ -21,8 +21,8 @@ This document outlines the basic server architecture for the Kubernetes cluster 
 |---------------|--------------|-------------------------------|
 | `kubectl2`     | 10.0.4.10     | Cluster management node (CLI) |
 | `kubectl2-sbx` | 10.0.4.14     | Cluster management node (CLI) - Sandbox |
-| `kubenode2-1`   | 10.0.4.11     | Worker node #1                |
-| `kubenode2-2`   | 10.0.4.12     | Worker node #2                |
+| `kube2-node1`   | 10.0.4.11     | Worker node #1                |
+| `kube2-node2`   | 10.0.4.12     | Worker node #2                |
 | `pod2-registry`| 10.0.4.13     | Internal container image registry |
 
 ## 🧭 Notes

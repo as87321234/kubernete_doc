@@ -28,7 +28,8 @@ This public repository contains documentation and resources related to our on-pr
 ### RedHat Guide
 
 - 👉 [Red Hat 9 Registration](./rhel_registration.md)
-- 👉 [Red Hat 9 OS Patchingß](./rhel_os_patching.md)
+- 👉 [Red Hat 9 OS Patching](./rhel_os_patching.md)
+- 👉 [Red Hat Add Users](./rhel_addusers.md)
 
 ### Notes
 - No passwords or sensitive credentials will be stored in this repository.

@@ -8,7 +8,11 @@
    ```bash
    cat /etc/redhat-release
 
-2. **Subscription Manager**
+2. **Set Hostname**
+   ```bash
+
+
+3. **Subscription Manager**
    ```bash
     sudo subscription-manager register --username=<username> --password=<password>
     sudo subscription-manager attach --auto
