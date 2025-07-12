@@ -13,7 +13,15 @@ This public repository contains documentation and resources related to our on-pr
 
 ## 📘 Architecture Overview
 
-- 👉 [kubernete details](./architecture.md)
+- 👉 [Server List](./architecture.md)
+
+## 📘 Security
+- 👉 [Guidance on Secure Containers and Microservices](https://github.com/ahmetb/kubernetes-network-policy-recipes/blob/11f5018e269359d9f900ae3b5c2e94c306623053/README.md)
+- 👉 [Guidance on Secure Containers and Microservices] b X
+https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html)
+## 📘 Strategy
+### 📘 GOC Strategy 
+- 👉 [Guidance on Secure Containers and Microservices](https://canada-ca.github.io/platform-security_securite-de-plateforme/)
 
 ## 📘 Additional Documentation
 
@@ -23,7 +31,7 @@ This public repository contains documentation and resources related to our on-pr
 - 👉 [Install and Set Up kubectl on Linux](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 - 👉 [Adding Linux worker nodes](https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/adding-linux-nodes/)
 - 👉 [Kubernete Quick Reference](https://kubernetes.io/docs/reference/kubectl/quick-reference/)
-
+- 👉 [Kubernete RHEL 9 installation](https://infotechys.com/install-a-kubernetes-cluster-on-rhel-9/#elementor-toc__heading-anchor-1)
 
 ### RedHat Guide
 
