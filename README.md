@@ -16,9 +16,8 @@ This public repository contains documentation and resources related to our on-pr
 - 👉 [Server List](./architecture.md)
 
 ## 📘 Security
-- 👉 [Guidance on Secure Containers and Microservices](https://github.com/ahmetb/kubernetes-network-policy-recipes/blob/11f5018e269359d9f900ae3b5c2e94c306623053/README.md)
-- 👉 [Guidance on Secure Containers and Microservices] b X
-https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html)
+- 👉 [Guidance on Kubernetes Network Policy](https://github.com/ahmetb/kubernetes-network-policy-recipes/blob/11f5018e269359d9f900ae3b5c2e94c306623053/README.md)
+- 👉 [Guidance on Kubernetes Security Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Kubernetes_Security_Cheat_Sheet.html)
 ## 📘 Strategy
 ### 📘 GOC Strategy 
 - 👉 [Guidance on Secure Containers and Microservices](https://canada-ca.github.io/platform-security_securite-de-plateforme/)
