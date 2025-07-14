@@ -1,10 +1,11 @@
-Key podman Commands Used
+## 🔧 Key Podman Commands Used
 
-Command		Purpose
-podman 		run -d --name registry -p 5000:5000 -v /opt/registry/data:/var/lib/registry:z registry:2	Run a local Docker registry
-podman 		build -t <tag> .	Build a container image from a Dockerfile
-podman 		tag <image> <registry>/<name>:<tag>	Tag image for pushing to custom registry
-podman 		push <registry>/<image>:<tag>	Push the image to your private registry
-podman 		run --rm -p <host-port>:<container-port> <image>	Test image locally and expose a port
-podman 		run --rm -it <image> bash	Open interactive shell inside container for debugging
-podman 		inspect <image>	Get metadata for the image (e.g., entrypoint)
+| Command | Purpose |
+|--------|---------|
+| `podman run -d --name registry -p 5000:5000 -v /opt/registry/data:/var/lib/registry:z registry:2` | Run a local Docker-compatible container registry |
+| `podman build -t <image-name> .` | Build a container image from a Dockerfile |
+| `podman tag <image-id-or-name> <custom-registry>/<image-name>:<tag>` | Tag an image for pushing to a custom registry |
+| `podman push <custom-registry>/<image-name>:<tag>` | Push the image to your private registry |
+| `podman run --rm -p <host-port>:<container-port> <image-name>` | Test image locally and expose a port |
+| `podman run --rm -it <image-name> bash` | Open an interactive shell inside the container for debugging |
+| `podman inspect <image-id-or-name>` | Get metadata about the image (e.g., entrypoint, env variables) |
